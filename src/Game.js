@@ -52,7 +52,7 @@ export class Game {
 
     this.#wire();
     this.menu.show({
-      title: "Perahu Mandailing",
+      title: "Light on the River",
       lead: "Membawa sebuah cahaya untuk menyusuri sungai senja. Ambil lilin, lewati rintangan dengan baik, dan jaga agar apimu tetap menyala.",
       stats: this.prog.data.best ? "Rekor: " + this.prog.data.best : "",
     });
